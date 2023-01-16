@@ -1,5 +1,4 @@
 
-import java.lang.reflect.Type;
 
 public class University {
    private String id;
