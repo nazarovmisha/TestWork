@@ -1,18 +1,13 @@
 
-
 public class University {
-   private String id;
+    private String id;
     private String fullName;
     private String shortName;
     private int yearOfFoundation;
     private StudyProfile studyProfile;
 
-    public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile studyProfile) {
-        this.id = id;
-        this.fullName = fullName;
-        this.shortName = shortName;
-        this.yearOfFoundation = yearOfFoundation;
-        this.studyProfile = studyProfile;
+    public University() {
+
     }
 
     public String getId() {
